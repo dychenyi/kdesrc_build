@@ -33,3 +33,5 @@ This command will download kdesrc-build (the script and its associated modules) 
 
 4) A lot of errors occurs while compiling. yum list xxx & yum install xxx . Then is OK. And finally KDE building costs a lot of time!
 
+5) compile error while build solid & report: No UDev found. In fact UDev = systemd-devel. So yum install systemd-devel.
+
